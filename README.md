@@ -36,3 +36,12 @@ aviation-accidents-analysis/
 ├── aviation_accident_analysis.ipynb              # Jupyter Notebook (full analysis)
 ├── aviation_accident_analysis_presentation.pptx  # Executive Summary
 └── README.md                        # This file
+
+
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/OndiekiFrank/aviation-accidents-analysis.git
+cd aviation-accidents-analysis
