@@ -1,115 +1,89 @@
 # ✈️ Aviation Accident Risk Analysis (1962–2023)
 
-A comprehensive analysis of aviation accidents between 1962 and 2023, focusing on aircraft types, causes, severity, and patterns over time.  
-The goal is to **identify low-risk aircraft** and offer **strategic recommendations** for businesses entering the aviation industry.
+This project presents a comprehensive analysis of aviation accidents between 1962 and 2023. The goal is to identify low-risk aircraft types, uncover accident trends, and offer data-driven recommendations for businesses in the aviation industry.
 
----
+## Project Overview
 
-## 📊 Project Overview
+This data science project explores accident data to answer key questions around aviation safety, aircraft reliability, and environmental factors contributing to incidents. It leverages Python, Pandas, and visualization libraries to drive insight and support strategic aviation decisions.
 
-This project aims to answer key safety-related questions and identify trends in aviation accidents to guide data-driven investment and policy decisions.
+## Project Structure
 
----
+The project repository is organized as follows:
+- `README.md`: Project description, setup instructions, and key findings.
+- `aviation_accident_analysis.ipynb`: Main Jupyter Notebook with full analysis and visualizations.
+- `aviation_accident_analysis_presentation.pptx`: Stakeholder-ready presentation of insights.
+- `data/`: Contains raw and cleaned datasets.
+- `images/`: Visual assets used in the notebook and documentation.
+  - `911.jpeg`
+  - `PlaneCrushing.jpeg`
+  - `PlaneCrushing1`
 
-## 🔎 Key Questions
+## Instructions
 
-- ❓ What are the most common causes of aviation accidents?  
-- ✈️ Which aircraft types have the highest and lowest accident rates?  
-- 🌍 Are accidents more frequent in certain regions or time periods?  
-- 🌦️ How does weather or flight purpose correlate with accident severity?
-
----
-
-## 🔍 Technologies Used
-
-- **Python 🐍** – for data manipulation and analysis  
-- **Jupyter Notebook 📓** – exploratory analysis and visualization  
-- **Pandas** – data wrangling  
-- **Matplotlib & Seaborn** – statistical and comparative plots  
-- **Plotly** – interactive visualizations  
-- **Git** – version control  
-- **PowerPoint** – stakeholder-friendly summary presentation
-
----
-
-## 📁 Project Structure
-
-aviation-accidents-analysis/ ├── data/ # Raw and cleaned data files ├── images/ # Visual assets used in README and notebook │ ├── 911.jpeg │ ├── PlaneCrushing.jpeg │ └── PlaneCrushing1 ├── aviation_accident_analysis.ipynb # Jupyter Notebook (full analysis) ├── aviation_accident_analysis_presentation.pptx # Executive Summary └── README.md # This file
-
-yaml
-Copy
-Edit
-
----
-
-## 🚀 How to Run the Project
-
-### 1. Clone the Repository
-
+1. **Clone the Repository**  
 Open your terminal and run:
-
 ```bash
 git clone https://github.com/OndiekiFrank/aviation-accidents-analysis.git
 cd aviation-accidents-analysis
-###2. Create and Activate a Conda Environment
-Create a new Conda environment and activate it:
+```
 
-bash
-Copy
-Edit
+2. **Create and Activate Conda Environment**  
+Create a new Python environment and activate it:
+```bash
 conda create -n aviation-analysis python=3.10 -y
 conda activate aviation-analysis
-###3. Install Dependencies
-Install the required Python packages using Conda:
+```
 
-bash
-Copy
-Edit
+3. **Install Dependencies**  
+Install the required libraries:
+```bash
 conda install pandas matplotlib seaborn plotly jupyter -y
-###4. Launch Jupyter Notebook
-Start Jupyter to run the notebook:
+```
 
-bash
-Copy
-Edit
+4. **Launch Jupyter Notebook**  
+Run the notebook:
+```bash
 jupyter notebook
-##📈 Results & Insights
-###🛩️ Single-engine land aircraft have historically higher incident rates.
+```
 
-⛅ A significant portion of accidents are caused by pilot error, weather conditions, or mechanical failure.
+## 📈 Results & Insights
 
-✈️ Commercial and cargo flights are generally safer than private or instructional flights.
+🛩️ Single-engine land aircraft have historically higher incident rates.  
+⛅ A significant portion of accidents are caused by pilot error, weather conditions, or mechanical failure.  
+✈️ Commercial and cargo flights tend to be safer than private or instructional flights.  
+📅 Peak accident periods correspond to early decades and seasonal weather patterns like winter and fog.  
+📓 For full insights, see: `aviation_accident_analysis.ipynb`
 
-📅 Peak accident periods correspond to early decades and seasonal extremes (e.g., winter fog).
+## 🎯 Business Recommendations
 
-📓 For full insights, see: aviation_accident_analysis.ipynb
+✅ Invest in multi-engine aircraft with strong safety records.  
+🚫 Avoid aircraft models with frequent recurrence in accident reports.  
+🧠 Provide robust pilot training for adverse weather conditions.  
+📊 Use heatmaps and historical trends to plan safer routes.
 
-##🎯 Business Recommendations
-✅ Invest in multi-engine aircraft with strong safety records.
+## 🙋 About the Author
 
-🚫 Avoid aircraft models with frequent accidents in historical data.
+Hi! I'm Frankline Ondieki, a passionate Data Scientist based in Nairobi, Kenya.  
+Currently studying at Moringa School, I use data to tell compelling stories and drive decision-making.
 
-🧠 Improve pilot training with emphasis on weather decision-making.
+📧 Email: ondiekifrank021@gmail.com  
+🔗 LinkedIn: [Frankline Ondieki](https://www.linkedin.com/in/franklineondieki)  
+🌍 GitHub: [OndiekiFrank](https://github.com/OndiekiFrank)
 
-📊 Use historical heatmaps and patterns to guide route planning.
+## ⭐️ Show Your Support
 
-#🙋 About the Author
-Hi! I'm Frankline Ondieki, a passionate Data Scientist based in Nairobi, Kenya.
-I'm currently studying at Moringa School, where I’m honing my skills in real-world data storytelling.
+If you found this project useful or insightful:
+- 🌟 Star this repository
+- 🐛 Report bugs or suggest features via issues
+- 🤝 Connect with me on LinkedIn
 
-📧 Email: ondiekifrank021@gmail.com
+## 📌 Future Enhancements
 
-🔗 LinkedIn: Frankline Ondieki
+🖥️ Build an interactive Streamlit dashboard  
+🗺️ Add geospatial analysis for crash site mapping  
+🌦️ Integrate weather APIs for real-time simulation  
+📦 Package project as a Docker-based microservice
 
-🌍 GitHub: OndiekiFrank
+## License
 
-##⭐️ Show Your Support
-If you found this project insightful:
-
-🌟 Star the repository
-
-🐞 Report any bugs or issues
-
-🤝 Connect with me on LinkedIn
-
-
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
