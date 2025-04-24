@@ -1,4 +1,5 @@
 # Aviation Accident Risk Analysis (1962–2023)
+![Aviation Accident](images/911.jpeg)
 
 This project presents a comprehensive analysis of aviation accidents between 1962 and 2023. The goal is to identify low-risk aircraft types, uncover accident trends, and offer data-driven recommendations for businesses in the aviation industry.
 
