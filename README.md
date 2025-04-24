@@ -1,4 +1,4 @@
-# ✈️ Aviation Accident Risk Analysis (1962–2023)
+# Aviation Accident Risk Analysis (1962–2023)
 
 This project presents a comprehensive analysis of aviation accidents between 1962 and 2023. The goal is to identify low-risk aircraft types, uncover accident trends, and offer data-driven recommendations for businesses in the aviation industry.
 
@@ -46,44 +46,48 @@ Run the notebook:
 jupyter notebook
 ```
 
-## 📈 Results & Insights
+## Results and Insights
 
-🛩️ Single-engine land aircraft have historically higher incident rates.  
-⛅ A significant portion of accidents are caused by pilot error, weather conditions, or mechanical failure.  
-✈️ Commercial and cargo flights tend to be safer than private or instructional flights.  
-📅 Peak accident periods correspond to early decades and seasonal weather patterns like winter and fog.  
-📓 For full insights, see: `aviation_accident_analysis.ipynb`
+- Single-engine land aircraft have historically higher incident rates.  
+- A significant portion of accidents are caused by pilot error, weather conditions, or mechanical failure.  
+- Commercial and cargo flights tend to be safer than private or instructional flights.  
+- Peak accident periods correspond to early decades and seasonal weather patterns like winter and fog.  
+- Full insights and visualizations are available in: `aviation_accident_analysis.ipynb`
 
-## 🎯 Business Recommendations
+## Business Recommendations
 
-✅ Invest in multi-engine aircraft with strong safety records.  
-🚫 Avoid aircraft models with frequent recurrence in accident reports.  
-🧠 Provide robust pilot training for adverse weather conditions.  
-📊 Use heatmaps and historical trends to plan safer routes.
+- Invest in multi-engine aircraft with strong safety records.  
+- Avoid aircraft models with frequent recurrence in accident reports.  
+- Provide robust pilot training for adverse weather conditions.  
+- Use heatmaps and historical trends to plan safer routes.
 
-## 🙋 About the Author
+## About the Author
 
-Hi! I'm Frankline Ondieki, a passionate Data Scientist based in Nairobi, Kenya.  
-Currently studying at Moringa School, I use data to tell compelling stories and drive decision-making.
+Hi, I'm Frankline Ondieki, a Data Scientist based in Nairobi, Kenya.  
+Currently studying at Moringa School, I specialize in using data to solve real-world problems and communicate insights effectively.
 
-📧 Email: ondiekifrank021@gmail.com  
-🔗 LinkedIn: [Frankline Ondieki](https://www.linkedin.com/in/franklineondieki)  
-🌍 GitHub: [OndiekiFrank](https://github.com/OndiekiFrank)
+Email: ondiekifrank021@gmail.com  
+LinkedIn: [Frankline Ondieki](https://www.linkedin.com/in/franklineondieki)  
+GitHub: [OndiekiFrank](https://github.com/OndiekiFrank)
 
-## ⭐️ Show Your Support
+## Show Your Support
 
-If you found this project useful or insightful:
-- 🌟 Star this repository
-- 🐛 Report bugs or suggest features via issues
-- 🤝 Connect with me on LinkedIn
+If you found this project helpful or insightful:
+- Star this repository
+- Report bugs or suggest improvements via GitHub Issues
+- Connect with me on LinkedIn
 
-## 📌 Future Enhancements
+## Future Enhancements
 
-🖥️ Build an interactive Streamlit dashboard  
-🗺️ Add geospatial analysis for crash site mapping  
-🌦️ Integrate weather APIs for real-time simulation  
-📦 Package project as a Docker-based microservice
+- Build an interactive dashboard using Streamlit  
+- Add geospatial analysis for crash site mapping  
+- Integrate real-time weather APIs for simulation  
+- Package the project as a Docker-based microservice
 
 ## License
 
 This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
+
+---
+
+By following these instructions, you'll be able to replicate the analysis, generate meaningful insights from aviation data, and make informed decisions in the aviation industry. For feedback or collaboration opportunities, feel free to reach out.
