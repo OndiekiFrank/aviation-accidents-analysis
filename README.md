@@ -77,17 +77,9 @@ If you found this project helpful or insightful:
 - Report bugs or suggest improvements via GitHub Issues
 - Connect with me on LinkedIn
 
-## Future Enhancements
-
-- Build an interactive dashboard using Streamlit  
-- Add geospatial analysis for crash site mapping  
-- Integrate real-time weather APIs for simulation  
-- Package the project as a Docker-based microservice
 
 ## License
 
 This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
 
----
-
-By following these instructions, you'll be able to replicate the analysis, generate meaningful insights from aviation data, and make informed decisions in the aviation industry. For feedback or collaboration opportunities, feel free to reach out.
+ following these instructions, you'll be able to replicate the analysis, generate meaningful insights from aviation data, and make informed decisions in the aviation industry. For feedback or collaboration opportunities, feel free to reach out.
