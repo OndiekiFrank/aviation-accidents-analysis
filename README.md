@@ -1,4 +1,5 @@
 # Aviation Accident Risk Analysis (1962–2023)
+
 ![Aviation Accident](images/911.jpeg)
 
 This project presents a comprehensive analysis of aviation accidents between 1962 and 2023. The goal is to identify low-risk aircraft types, uncover accident trends, and offer data-driven recommendations for businesses in the aviation industry.
@@ -55,6 +56,14 @@ jupyter notebook
 - Peak accident periods correspond to early decades and seasonal weather patterns like winter and fog.  
 - Full insights and visualizations are available in: `aviation_accident_analysis.ipynb`
 
+## Interactive Dashboard
+
+Explore the dynamic aviation accident dashboard created with Tableau:
+
+[View Tableau Dashboard](https://public.tableau.com/app/profile/frankline.ondieki/viz/FatalInjuriesinAviationA61yearAnalysis/AccidentAnalysisDashboeard)
+
+The dashboard provides interactive visualizations to further investigate fatal injuries, accident causes, and trends over the past 61 years.
+
 ## Business Recommendations
 
 - Invest in multi-engine aircraft with strong safety records.  
@@ -78,9 +87,15 @@ If you found this project helpful or insightful:
 - Report bugs or suggest improvements via GitHub Issues
 - Connect with me on LinkedIn
 
+## Future Enhancements
+ 
+- Add geospatial analysis for crash site mapping  
+- Integrate real-time weather APIs for simulation  
+- Package the project as a Docker-based microservice
 
 ## License
 
 This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
 
- following these instructions, you'll be able to replicate the analysis, generate meaningful insights from aviation data, and make informed decisions in the aviation industry. For feedback or collaboration opportunities, feel free to reach out.
+---
+
